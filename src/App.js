@@ -1,9 +1,9 @@
 import React from 'react'
-import { Todo } from './component/todoreact/Todo';
+import { Temp } from './component/weather/Temp';
 export const App = () => {
   return (
     <div>
-      <Todo />
+      <Temp />
     </div>
   )
 }
