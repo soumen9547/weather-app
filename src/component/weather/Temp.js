@@ -43,7 +43,7 @@ export const Temp = () => {
                 <div className="search">
                     <input
                         type="search"
-                        placeholder="search..."
+                        placeholder="search your city..."
                         autoFocus
                         id="search"
                         className="searchTerm"

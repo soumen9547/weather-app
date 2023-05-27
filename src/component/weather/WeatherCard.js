@@ -57,7 +57,7 @@ export const WeatherCard = ({ temp,
                     <div className='temp-info-minmax'>
                         <div className="two-sided-section">
                             <p><i className={"wi wi-sunset"}></i></p>
-                            <p className='extra-info-leftside'>{timestr} pm<br /> Sunset</p>
+                            <p className='extra-info-leftside'>{timestr}<br /> Sunset</p>
                         </div>
                         <div className="two-sided-section">
                             <p><i className={"wi wi-humidity"}></i></p>
