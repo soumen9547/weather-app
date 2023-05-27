@@ -1,0 +1,91 @@
+/* Custom styles for the AvailabilityCalendar component */
+
+.availability-calendar {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Custom styles for the calendar container */
+  .calendar-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Custom styles for the calendar days */
+  .react-datepicker {
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  /* Custom styles for the selected date */
+  .react-datepicker__day--selected {
+    background-color: #e0e0e0;
+    color: #000;
+  }
+  
+  /* Custom styles for the current date */
+  .react-datepicker__day--today {
+    font-weight: bold;
+  }
+  
+  /* Custom styles for the calendar header */
+  .react-datepicker__header {
+    background-color: #f0f0f0;
+    border-bottom: none;
+  }
+  
+  /* Custom styles for the calendar month and year navigation */
+  .react-datepicker__navigation {
+    color: #555;
+  }
+
+  /* Custom styles for the calendar time select input */
+  .react-datepicker-time__input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  /* Custom styles for the time select dropdown */
+  .react-datepicker__time-list {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 8px 5px;
+  }
+  
+  /* Custom styles for the time select dropdown option */
+  .react-datepicker__time-list-item {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  /* Custom styles for the time select dropdown option when selected */
+  .react-datepicker__time-list-item--selected {
+    background-color: #e0e0e0;
+  }
+
+  /* Custom styles for the parent container of the AvailabilityCalendar component */
+  .d-flex{
+    display: flex;
+  }
+
+  .calendar-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .textdata {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item {
+    height: 14px;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
